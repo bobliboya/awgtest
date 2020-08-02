@@ -42,7 +42,11 @@
 
 ### Shadowrocket
 
-[App Store→](https://apps.apple.com/us/app/shadowrocket/id932747118)
+&emsp;&emsp;**美区App Store售价：$2.99**
+
+&emsp;&emsp;Shadowrocket因为应用图标为火箭而被称为"小火箭"，也有人会将其称为"小火煎"。其功能十分全面，支持各种主流协议、添加订阅、局域网代理共享以及iCloud备份。但有用户反映有时稳定性较差。可在网上搜索共享Apple ID下载。
+
+[前往App Store查看→](https://apps.apple.com/us/app/shadowrocket/id932747118)
 
 
 
