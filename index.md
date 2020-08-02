@@ -18,7 +18,7 @@
 
 ### ShadowsocksR
 
-&emsp;&emsp;ShadowsocksR简称SSR，可以看作Shadowsocks的升级版。出于某些原因，其Windows客户端的作者目前已经关闭了这个项目，但在Github上面现在依旧有很多备份可供下载。SSR与SS的操作逻辑类似，支持节点订阅。是许多机场的主流协议。Windows客户端支持节点订阅以及二级代理，iOS建议使用[Shadowrocket](#Shadowrocket)使用代理。
+&emsp;&emsp;ShadowsocksR简称SSR，可以看作Shadowsocks的升级版。出于某些原因，其Windows客户端的作者目前已经关闭了这个项目，但在Github上面现在依旧有很多备份可供下载。SSR与SS的操作逻辑类似，支持节点订阅。是许多机场的主流协议。Windows客户端支持节点订阅以及二级代理，iOS建议使用[Shadowrocket](#shadowrocket)使用代理。
 
 [[Windows]ShadowsocksR · Github→](https://github.com/shadowsocksrr/shadowsocksr-csharp)
 
@@ -26,7 +26,7 @@
 
 ### Vmess
 
-&emsp;&emsp;Vmess是另一种加密协议。Windows客户端V2rayN支持同时添加Vmess与Shadowsocks节点，也支持添加订阅。Android用户可在Google Play上下载V2RayNG使用，iOS建议使用[Shadowrocket](#Shadowrocket)使用代理。
+&emsp;&emsp;Vmess是另一种加密协议。Windows客户端V2rayN支持同时添加Vmess与Shadowsocks节点，也支持添加订阅。Android用户可在Google Play上下载V2RayNG使用，iOS建议使用[Shadowrocket](#shadowrocket)使用代理。
 
 [[Windows]V2ray · Github→](https://github.com/v2ray/v2ray-core)
 
