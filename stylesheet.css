@@ -2,7 +2,7 @@
 
 @import url('https://fonts.font.im/css?family=Roboto');
 html {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
@@ -243,7 +243,7 @@ button {
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 14px;
     line-height: 1.5;
     color: #24292e;
@@ -5244,7 +5244,7 @@ pre {
 }
 
 .markdown-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 16px;
     line-height: 1.5;
     word-wrap: break-word
