@@ -4370,7 +4370,7 @@ pre {
 }
 
 .text-uppercase {
-    text-transform: uppercase !important
+    text-transform: none !important
 }
 
 .text-underline {
