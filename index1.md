@@ -2,6 +2,10 @@
 
 [TOC]
 
+<link rel="stylesheet" href="[stylesheet.css](stylesheet.css)">
+
+<a href="https://apps.apple.com/us/app/shadowrocket/id932747118" class="btn text-uppercase green-color branding-bg-color">[iOS]Potatso Lite · App Store▶</a>
+
 # Proxy
 
 ## 协议
