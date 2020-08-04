@@ -80,7 +80,8 @@ dfn {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 3em;
+    font-weight: bold;
     margin: 0.67em 0
 }
 
@@ -325,12 +326,12 @@ h6 {
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 64px;
     font-weight: 600
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 600
 }
 
