@@ -17,6 +17,18 @@ buddhawin{
         font-weight: bolder
     }
 </style>
+## Total Score
+
+<font size =6px color=#f44336>**TOB	31.50**</font>
+
+<font size =6px color=#3F51B5>**Buddha	28.50**</font>
+
+
+
+
+
+## Detailed Score
+
 
 |                         | Origin Score of TOB | Origin Score of Buddha | Weighted Score of TOB | Weighted Score of Buddha |
 | :---------------------: | :-----------------: | :--------------------: | :-------------------: | :----------------------: |
