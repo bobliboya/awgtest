@@ -2,14 +2,24 @@
 <html>
 
 <head>
-    <link rel="shortcut icon" href="/bridge.png" />
     <SCRIPT language=JavaScript>
-        function password() {
+        function wchfs() {
             var testV = 1;
             var pass1 = prompt('Please Enter Password:', '');
+            var date = new Date();
+            var year = date.getFullYear();
+            var month = date.getMonth() + 1;
+            var day = date.getDate();
+            if (month < 10) {
+                month = "0" + month;
+            }
+            if (day < 10) {
+                day = "0" + day;
+            }
+            var nowDate = year + "" + month + "" + day;
             while (testV < 3) {
                 if (!pass1) history.go(-1);
-                if (pass1 == "123456") {
+                if (pass1 == nowDate) {
                     //alert('Done!');
                     break;
                 } //
@@ -19,7 +29,7 @@
             if (pass1 != "password" & testV == 3) history.go(-1);
             return " ";
         }
-        document.write(password());
+        document.write(wchfs());
     </SCRIPT>
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width initial-scale=1'>
@@ -1322,13 +1332,13 @@
         </h2>
 
         <font size=5px color=#f44336><strong>
-                    <center><span>TOB</span><span> </span><span>31.50</span></center>
-                </strong></font>
+                <center><span>TOB</span><span> </span><span>31.50</span></center>
+            </strong></font>
 
         <font size=5px color=#3F51B5><strong>
-                    <center><span>Buddha</span><span> </span><span>28.50</span></center>
-                </strong></font>
-
+                <center><span>Buddha</span><span> </span><span>28.50</span></center>
+            </strong></font>
+        Last Update: November 21, 2020
         <h2>
             <a name="font-size4pxdetailed-scorefont" class="md-header-anchor"></a>
             <font size=4px><span>Detailed Score</span></font>
