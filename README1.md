@@ -1,4 +1,6 @@
-# The Competition Board
+# <center><font size=9px>The Competition Board</font></center>
+
+&nbsp;<br/>&nbsp;<br/>
 
 <style type="text/css"> 
 @import url('https://fonts.font.im/css?family=Open+Sans');
@@ -17,17 +19,19 @@ buddhawin{
         font-weight: bolder
     }
 </style>
-## Total Score
+## <font size=6px>Total Score</font>
 
-<font size =6px color=#f44336>**TOB	31.50**</font>
+<font size =8px color=#f44336>**<center>TOB	31.50</center>**</font>
 
-<font size =6px color=#3F51B5>**Buddha	28.50**</font>
-
-
+<font size =68px color=#3F51B5>**<center>Buddha	28.50</center>**</font>
 
 
 
-## Detailed Score
+
+
+## <font size=6px>Detailed Score</font>
+
+<font size=5px>
 
 
 |                         | Origin Score of TOB | Origin Score of Buddha | Weighted Score of TOB | Weighted Score of Buddha |
@@ -42,3 +46,4 @@ buddhawin{
 |                         |                     |                        |                       |                          |
 |                         |                     |                        |                       |                          |
 
+</font>
