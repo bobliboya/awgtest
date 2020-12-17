@@ -61,6 +61,7 @@
             position: relative;
             font-weight: 350;
             font-size: 1.5rem;
+            line-height: 3rem;
         }
         
         #new {
@@ -135,4 +136,39 @@
         
         #tble {
             width: 100%;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            html {
+                background-color: #000;
+                color: #ffffff;
+            }
+            .pure-table {
+                border: 1px solid #1d1d1d;
+            }
+            .pure-table caption {
+                color: #fff;
+            }
+            .pure-table td,
+            .pure-table th {
+                border-left: 1px solid #1d1d1d;
+            }
+            .pure-table thead {
+                background-color: #1d1d1d;
+                color: #ffffff;
+            }
+            #red_rectangle {
+                border-color: #ef5350;
+                color: #ef5350;
+            }
+            #blue_rectangle {
+                border-color: #5C6BC0;
+                color: #5C6BC0;
+            }
+            .tob {
+                color: #ef5350;
+            }
+            .buddha {
+                color: #5C6BC0;
+            }
         }
