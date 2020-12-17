@@ -4,148 +4,42 @@
 <head>
     <meta charset="utf-8">
     <meta name='viewport' content='width=device-width initial-scale=1'>
-    <title>无标题文档</title>
-    <style type='text/css'>
-        html {
-            font-size: 14px;
-            background-color: var(--bg-color);
-            color: #000;
-            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji sans-serif;
-            -webkit-font-smoothing: antialiased;
-            margin-left: 5%;
-            margin-right: 5%;
+    <title>Competition Board</title>
+    <link rel="shortcut icon" href="https://imglf3.lf127.net/img/MGJnTlcwNXNQQU5PeENKakJmTGRZd05VQUtTeGZMdVpSd2FML1A4U2p0QkpNZTFTVTlhL3p3PT0.png" />
+    <link href="stylesheet.css" rel="stylesheet" type="text/css" charset="utf-8">
+    <SCRIPT language=JavaScript>
+        function wchfs() {
+            var testV = 1;
+            var pass1 = prompt('Please Enter Password:', '');
+            var date = new Date();
+            var year = date.getFullYear();
+            var month = date.getMonth() + 1;
+            var day = date.getDate();
+            var dow = date.getDay();
+            if (month < 10) {
+                month = "0" + month;
+            }
+            if (day < 10) {
+                day = "0" + day;
+            }
+            if (dow == 0) {
+                dow = 7
+            }
+            var nowDate = year + "" + month + "" + day + "" + dow;
+            while (testV < 3) {
+                if (!pass1) history.go(-1);
+                if (pass1 == nowDate) {
+                    //alert('Done!');
+                    break;
+                } //
+                testV += -1;
+                var pass1 = prompt('Invaild Password! Please Try Again!');
+            }
+            if (pass1 != "password" & testV == 3) history.go(-1);
+            return " ";
         }
-        
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-weight: 450;
-        }
-        
-        h1 {
-            font-size: 2.5rem;
-            text-align: center;
-            font-weight: 600;
-        }
-        
-        h2 {
-            font-size: 2rem;
-            text-align: left;
-            font-weight: 500;
-        }
-        
-        #great {
-            position: relative;
-            margin: 0px;
-            line-height: 3rem;
-        }
-        
-        #red_rectangle {
-            border: solid 3px;
-            border-radius: 5px;
-            border-color: #f44336;
-            text-align: center;
-            color: #f44336;
-        }
-        
-        #blue_rectangle {
-            border: solid 3px;
-            border-radius: 5px;
-            border-color: #3F51B5;
-            text-align: center;
-            color: #3F51B5;
-        }
-        
-        #grey_rectangle {
-            width:100%;
-            margin-top: 10px;
-            border: solid 2px;
-            border-radius: 5px;
-            border-color: #afafaf;
-            text-align: center;
-            left: 35%;
-            position: relative;
-            font-weight: 350;
-            font-size: 1.5rem;
-            line-height: 3rem;
-        }
-        
-        #new {
-            display: inline;
-            line-height-step: 15rem;
-        }
-        
-        table {
-            border-collapse: collapse;
-            border-spacing: 0;
-            width: 100%;
-            word-wrap: break-word;
-            font-size: 1.25rem;
-        }
-        
-        td,
-        th {
-            padding: 0;
-            text-align: center;
-            word-wrap: break-word;
-        }
-        
-        .pure-table {
-            border-collapse: collapse;
-            border-spacing: 0;
-            empty-cells: show;
-            border: 1px solid #cbcbcb;
-        }
-        
-        .pure-table caption {
-            color: #000;
-            padding: 1em 0;
-            text-align: center;
-        }
-        
-        .pure-table td,
-        .pure-table th {
-            border-left: 1px solid #cbcbcb;
-            border-width: 0 0 0 1px;
-            font-size: inherit;
-            margin: 0;
-            overflow: visible;
-            padding: .5em 1em;
-            word-wrap: break-word;
-        }
-        
-        .pure-table thead {
-            background-color: #e0e0e0;
-            color: #000;
-            text-align: left;
-            vertical-align: bottom;
-        }
-        
-        .pure-table td {
-            background-color: transparent;
-        }
-        
-        .tob {
-            color: #f44336;
-            font-weight: 500;
-        }
-        
-        .buddha {
-            color: #3F51B5;
-            font-weight: 500;
-        }
-        
-        .event {
-            font-weight: 600;
-        }
-        
-        #tble {
-            width: 100%;
-        }
-    </style>
+        document.write(wchfs());
+    </SCRIPT>
 
 </head>
 
@@ -176,7 +70,7 @@
         &nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />
     </div>
 
-    <div id="grey_rectangle" style="width:30%;">
+    <div id="grey_rectangle">
 
         Last Update: December 16, 2020
 
